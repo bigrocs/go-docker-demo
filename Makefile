@@ -7,7 +7,7 @@ dev:
 	make build && make run
 
 build:
-	go build
+	# GOOS=linux GOARCH=amd64 go build
 	docker build -t go-docker-demo .
 
 run:
