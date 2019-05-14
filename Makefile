@@ -11,4 +11,4 @@ build:
 	docker build -t go-docker-demo .
 
 run:
-	docker run --name go-docker-demo1  -it go-docker-demo
+	docker run -p 8080:80 --name go-docker-demo1  -it go-docker-demo
